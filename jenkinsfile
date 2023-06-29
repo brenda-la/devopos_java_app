@@ -6,7 +6,8 @@ pipeline{
         stage('Git checkout'){
             steps{
               script{
-                git 'https://github.com/brenda-la/devopos_java_app.git'
+               git 'https://github.com/brenda-la/devopos_java_app.git'
+              
               }  
             }
         }
