@@ -8,11 +8,7 @@ pipeline{
             steps{
               script{
                 
-                gitCheckout{
-                    branch:"master",
-                    url:"https://github.com/brenda-la/devopos_java_app.git"
-
-              }
+               gitCheckout(branch:"master", url:"https://github.com/brenda-la/devopos_java_app.git")
               
               }  
             }
